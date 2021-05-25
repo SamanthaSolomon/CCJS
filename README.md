@@ -1,6 +1,6 @@
 
 ### Time Tracking
-| Task      | Component | HRs Spent |
+| Task      | Page/Feature | HRs Spent |
 | ----------- | ----------- | ------|
 | Architecture | Design | 0.5 |
 | Wireframes   | Design | 4.0 |
