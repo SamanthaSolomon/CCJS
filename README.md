@@ -11,3 +11,4 @@
 Notes:
  - add in font awesome icons
  - html for code of conduct and organizers
+ - link pages
