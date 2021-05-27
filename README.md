@@ -4,10 +4,10 @@
 | ----------- | ----------- | ------|
 | Architecture | Design | 0.5 |
 | Wireframes   | Design | 4.0 |
-| Basic HTML content | index | 2.0 |
-| Basic HTML content | code of conduct | 0 |
-| Basic HTML content | organizers | 0 |
+| Basic HTML content | index | 2.5 |
+| Basic HTML content | code of conduct | 0.5 |
+| Basic HTML content | organizers | 0.5 |
 
 Notes:
- - add in font awesome icons
- - html for code of conduct and organizers
+ - jump links and page links
+ - meetup script research
