@@ -1,3 +1,9 @@
+# charmCityJS Website Redesign
+
+Redesign and update of www.charmcityjs.org, a javascript affinity group in Baltimore, MD. Building using html, css, and vanilla JS to support continued maintence in a volunteer-baised organization.
+
+## Build Status
+Currently building ...
 
 ### Time Tracking
 | Task      | Page/Feature | HRs Spent |
@@ -8,6 +14,6 @@
 | Basic HTML content | code of conduct | 0.5 |
 | Basic HTML content | organizers | 0.5 |
 
-Notes:
+Next tasks:
  - jump links and page links
  - meetup script research
