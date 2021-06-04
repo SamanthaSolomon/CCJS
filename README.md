@@ -13,9 +13,11 @@ Currently building ...
 | Basic HTML content | index | 2.5 |
 | Basic HTML content | code of conduct | 0.5 |
 | Basic HTML content | organizers | 0.5 |
-| MeetUp GET Request | index | 0 |
+| MeetUp GET Request | index | 2.5 |
 
 Next tasks:
+ - fix static data for rendering or get OAuth
+ - add error messages
+ - research handlebars.js
  - jump links and page links
- - meetup api research
  - formik for contact form
