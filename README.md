@@ -13,7 +13,9 @@ Currently building ...
 | Basic HTML content | index | 2.5 |
 | Basic HTML content | code of conduct | 0.5 |
 | Basic HTML content | organizers | 0.5 |
+| MeetUp GET Request | index | 0 |
 
 Next tasks:
  - jump links and page links
- - meetup script research
+ - meetup api research
+ - formik for contact form
