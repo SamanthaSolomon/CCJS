@@ -19,19 +19,19 @@
         <p>We're Baltimore's JavaScript community, and we want to hang out with you.</p>
         <nav>
             <div>
-                <a href="" class="black-button">Events</a>
-                <p>Hand out with us (online for now)</p>
+                <a href="#events" class="black-button">Events</a>
+                <p>Hang out with us (online for now)</p>
             </div>
             <div>
-                <a href="" class="black-button">Connect</a>
+                <a href="#connect" class="black-button">Connect</a>
                 <p>Join the slack channel, follow us, or email us</p>
             </div>
             <div>
-                <a href="" class="black-button">Code of Conduct</a>
+                <a href="code-of-conduct.html" class="black-button">Code of Conduct</a>
                 <p>This is really important to us</p>
             </div>
             <div>
-                <a href="" class>Meet the Organizers</a>
+                <a href="organizers.html" class>Meet the Organizers</a>
                 <p>We love making CCJS run</p>
             </div>
         </nav>
@@ -77,13 +77,15 @@
             <i class="fab fa-slack"></i>
             <h3>We're on Slack</h3>
             <p>Slack is where we all virtually hang out in between our in-person and online events. Come say hello, ask questions about JavaScript, Baltimore, or anything you want!</p>
-            <a href="" target="_blank" class="black-button">Join our Channel</a>
+            <a href="http://slack.charmcityjs.org/" target="_blank" class="black-button">Join our Channel</a>
         </div>
-        <div>
+        <div id="email-us">
             <i class="fas fa-envelope"></i>
             <h3>Email Us</h3>
             <p>Get in with the organizers at <a href="mailto:charmcityjs@gmail.com">charmcityjs@gmail.com</a>. Or, use the form below.</p>
-            <form>
+            <form
+                action="https://formspree.io/f/xyylwrpa"
+                method="POST">
                 <label for="name">Your Name</label><br>
                 <input type="text" id="name" name="name" placeholder="Brendan Eich"><br>
                 <label for="email">Your Email</label><br>
