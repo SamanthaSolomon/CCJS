@@ -15,11 +15,11 @@ Currently building ...
 | Basic HTML content | organizers | 0.5 |
 | MeetUp GET Request | index | 2.5 |
 | Links | all pages | 0.25 |
-| Formik for contact form | index | 0 |
+| Formspree for contact form | index | 0.25 |
 
 
 Next tasks:
- - formik for contact form
+ - formspree for contact form
  - add organizer images
  - add logo
  - add sponsors
