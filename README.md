@@ -14,13 +14,17 @@ Currently building ...
 | Basic HTML content | code of conduct | 0.5 |
 | Basic HTML content | organizers | 0.5 |
 | MeetUp GET Request | index | 2.5 |
+| Links | all pages | 0.25 |
+| Formik for contact form | index | 0 |
+
 
 Next tasks:
- - fix static data for rendering or get OAuth
- - add error messages
- - research handlebars.js
- - jump links and page links
  - formik for contact form
  - add organizer images
  - add logo
  - add sponsors
+
+ Tasks dependent on meetup api:
+ - fix static data for rendering or get OAuth
+ - add error messages
+ - research handlebars.js
