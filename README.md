@@ -19,10 +19,10 @@ Currently building ...
 
 
 Next tasks:
- - formspree for contact form
  - add organizer images
  - add logo
  - add sponsors
+ - add other communities
 
  Tasks dependent on meetup api:
  - fix static data for rendering or get OAuth
