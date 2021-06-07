@@ -16,12 +16,12 @@ Currently building ...
 | MeetUp GET Request | index | 2.5 |
 | Links | all pages | 0.25 |
 | Formspree for contact form | index | 0.25 |
+| add organizer images | organizers | 0.5 |
 
 
 Next tasks:
- - add organizer images
  - add logo
- - add sponsors
+ - add sponsors, Tenon, Team Password
  - add other communities
 
  Tasks dependent on meetup api:
