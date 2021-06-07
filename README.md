@@ -21,3 +21,6 @@ Next tasks:
  - research handlebars.js
  - jump links and page links
  - formik for contact form
+ - add organizer images
+ - add logo
+ - add sponsors

@@ -1,12 +1,13 @@
 // MEETUP API GET REQUEST
 
 // VARIABLES
-// const meetUpURL = "https://api.meetup.com/charmcityjs/events?scroll=next_upcoming&page=20&has_ended=false&omit=created,duration,rsvp_limit,date_in_series_pattern,time,updated,utc_offset,waitlist_count"
+//query omits data that is not useful (longitude, latitude, ids, etc.)
+const meetUpURL = "https://api.meetup.com/charmcityjs/events?scroll=next_upcoming&page=20&has_ended=false&omit=created,duration,rsvp_limit,date_in_series_pattern,time,updated,utc_offset,waitlist_count"
 const meetUpDiv = document.getElementById('upcoming-meetups')
-
-// FETCH DATA
 let req = new XMLHttpRequest();
 
+// FETCH DATA
+//uses dummy api
 req.open('GET', 'https://learnwebcode.github.io/json-example/animals-1.json')
 
 req.onload = () => {
@@ -15,11 +16,13 @@ req.onload = () => {
         // console.log('data-', data)
         render(data)
     } else {
+        //REQUEST/RENDER CONNECTION ERROR
         console.log("error")
         //need to add error message
     }    
 }
 
+//BROWSER CONNECTION ERROR
 req.onerror = () => {
     console.log ("error")
     //need to add error message
@@ -28,6 +31,7 @@ req.onerror = () => {
 req.send()
 
 // RENDER DATA FUNCTION
+//rendering dummy data
 let render = (event) => {
     let meetUpHTML = ""
     for (i = 0; i < event.length; i++){
