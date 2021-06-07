@@ -23,6 +23,8 @@ Next tasks:
  - add logo
  - add sponsors, Tenon, Team Password
  - add other communities
+ - styling
+ - figure out how to combine repos
 
  Tasks dependent on meetup api:
  - fix static data for rendering or get OAuth
