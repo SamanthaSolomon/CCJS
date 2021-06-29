@@ -48,13 +48,15 @@
             <h2>< events /></h2>
         </div>
         <div>
-            <i class="fab fa-meetup"></i>
+            <span class="h3-icon">
+                <i class="fab fa-meetup"></i>
+            </span>
             <h3>Upcoming Meetups</h3>
-            <div id="upcoming-meetups"></div>
-            <script src="main.js"></script>
         </div>
         <div>
-            <i class="fas fa-chalkboard-teacher"></i>
+            <span class="h3-icon">
+                <i class="fas fa-chalkboard-teacher"></i>
+            </span>
             <h3>Submit a Talk Idea</h3>
             <p>We want YOU to come talk or present at a future charmCityJS event! (Seriously, we want you to do it. We'll be if we have to.)</p>
             <p>A "talk" can be about anything JavaScript related:</p>
@@ -89,13 +91,17 @@
             <h2>< connect /></h2>
         </div>
         <div>
-            <i class="fab fa-slack"></i>
+            <span class="h3-icon">
+                <i class="fab fa-slack"></i>
+            </span>
             <h3>We're on Slack</h3>
             <p>Slack is where we all virtually hang out in between our in-person and online events. Come say hello, ask questions about JavaScript, Baltimore, or anything you want!</p>
             <a href="http://slack.charmcityjs.org/" target="_blank" class="black-button">Join our Channel</a>
         </div>
         <div id="email-us">
-            <i class="fas fa-envelope"></i>
+            <span class="h3-icon">
+                <i class="fas fa-envelope"></i>
+            </span>
             <h3>Email Us</h3>
             <p>Get in with the organizers at <a href="mailto:charmcityjs@gmail.com">charmcityjs@gmail.com</a>. Or, use the form below.</p>
             <form
@@ -107,35 +113,42 @@
                 <input type="email" id="email" name="email" placeholder="Brendan@javascript.com"><br>
                 <label for="message">Your Message</label><br>
                 <textarea id="message" name="message" placeholder="I've got a great idea for a talk."></textarea><br>
-                <input type="submit" value="Send">
+                <input class="black-button" type="submit" value="Send">
             </form>
         </div>
         <div>
-            <i class="far fa-heart"></i>
+            <span class="h3-icon">
+                <i class="far fa-heart"></i>
+            </span>
             <h3>Follow Us</h3>
             <p>Learn about events and other activities on our social media.</p>
-            <ul>
-                <li><i class="fab fa-twitter"></i><a href="https://twitter.com/charmcityjs" target="_blank">@charmCityJS</a></li>
-                <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/charmcityjs/" target="_blank">@chamcityjs</a></li>
-            </ul>
+            <div>
+                <a href="https://twitter.com/charmcityjs" target="_blank">
+                    <i class="fab fa-twitter"></i>@charmCityJS
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/charmcityjs/" target="_blank">
+                    <i class="fab fa-instagram"></i>@chamcityjs
+                </a>
+            </div>
         </div>
         <div>
             <i class="fas fa-users"></i>
             <h3>Other Communities</h3>
             <p>We stand on the shoulders of others. Here are some other development and software engineering communities in the area.</p>
             <p>Think another community should be listed here? Get in touch with us with details!</p>
-            <ul>
-                <li>
-                    <img src="images/code-for-baltimore-logo.png" alt="code for baltimore logo"><a href="http://codeforbaltimore.org/" target="_blank">Code for Baltimore</a>
-                </li>
-                <li>
-                    <img src="images/dc-tech-slack.png" alt="DC tech logo"><a href="http://www.dctechslack.com/" target="_blank">DC Tech Slack</a>
-                </li>
-                <li>
-                    <img src="images/Technical.ly-national-logo2.jpg" alt="technically logo">
-                    <a href="https://technical.ly/baltimore/" target="_blank">Technical.ly</a>
-                </li>
-            </ul>
+                <div>
+                    <a href="http://codeforbaltimore.org/" target="_blank">
+                        <img src="images/code-for-baltimore-logo.png" alt="code for baltimore logo">Code for Baltimore
+                    </a>
+                    <a href="http://www.dctechslack.com/" target="_blank">
+                        <img src="images/dc-tech-slack.png" alt="DC tech logo">DC Tech Slack
+                    </a>
+                    <a href="https://technical.ly/baltimore/" target="_blank">
+                        <img src="images/Technical.ly-national-logo2.jpg" alt="technically logo">Technical.ly
+                    </a>
+                </div>
         </div>
     </div>
 
