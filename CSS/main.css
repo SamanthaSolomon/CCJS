@@ -62,6 +62,7 @@ input, textarea{
 
 a{
     color: var(--text);
+    font-family: var(--para-font);
 }
 
 img{
@@ -72,6 +73,11 @@ img{
     text-align: center;
     width: 100%;
     margin: 10% 0;
+}
+
+form .black-button{
+    margin-left: 70%;
+    font-size: 1rem;
 }
 
 .black-button{
@@ -96,6 +102,25 @@ img{
     font-size: 2.5rem;
 }
 
+.social-icon{
+    font-size: 2.5rem;
+}
+
+.group-social-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.single-social-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-social-div p{
+    margin-top: 0px;
+}
+
 #events{
     background-color: var(--background);
     padding-top: 10px;
@@ -112,6 +137,14 @@ img{
 }
 
 #email-us{
+    margin-top: 15%;
+}
+
+#follow-us{
+    margin-top: 15%;
+}
+
+#other-communities{
     margin-top: 15%;
 }
 
