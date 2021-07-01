@@ -14,7 +14,7 @@
 
 </head>
 <body>
-    <!-- home page -->
+    <!-- NAVIGATION - HOME -->
     <header>
         <div class="centered-div">
             <img src="images/Logo.png" alt="logo"> 
@@ -42,7 +42,7 @@
         </nav>
     </header>
 
-    <!-- Events -->
+    <!-- EVENTS -->
     <div id="events">
         <div class="centered-div">
             <h2>< events /></h2>
@@ -85,7 +85,7 @@
         </div>
     </div>
 
-    <!-- Connect -->
+    <!-- CONNECT -->
     <div id="connect">
         <div class="centered-div">
             <h2>< connect /></h2>
@@ -98,81 +98,88 @@
             <p>Slack is where we all virtually hang out in between our in-person and online events. Come say hello, ask questions about JavaScript, Baltimore, or anything you want!</p>
             <a href="http://slack.charmcityjs.org/" target="_blank" class="black-button">Join our Channel</a>
         </div>
-        <div id="email-us">
-            <span class="h3-icon">
-                <i class="fas fa-envelope"></i>
-            </span>
-            <h3>Email Us</h3>
-            <p>Get in with the organizers at <a href="mailto:charmcityjs@gmail.com">charmcityjs@gmail.com</a>. Or, use the form below.</p>
-            <form
-                action="https://formspree.io/f/xyylwrpa"
-                method="POST">
-                <label for="name">Your Name</label><br>
-                <input type="text" id="name" name="name" placeholder="Brendan Eich"><br>
-                <label for="email">Your Email</label><br>
-                <input type="email" id="email" name="email" placeholder="Brendan@javascript.com"><br>
-                <label for="message">Your Message</label><br>
-                <textarea id="message" name="message" placeholder="I've got a great idea for a talk."></textarea><br>
-                <input class="black-button" type="submit" value="Send">
-            </form>
-        </div>
-        <div id="follow-us">
-            <span class="h3-icon">
-                <i class="far fa-heart"></i>
-            </span>
-            <h3>Follow Us</h3>
-            <p>Learn about events and other activities on our social media.</p>
-            <div class="group-social-div">
-                <div class="single-social-div">
-                    <a href="https://twitter.com/charmcityjs" target="_blank">
-                        <span class="social-icon">
-                            <i class="fab fa-twitter"></i>
-                        </span>
-                    </a>
-                    <p>@charmCityJS</p>
-                </div>
-                <div class="single-social-div">
-                    <a href="https://www.instagram.com/charmcityjs/" target="_blank">
-                        <span class="social-icon">
-                            <i class="fab fa-instagram"></i>
-                        </span>
-                    </a>
-                    <p>@chamcityjs</p>
-                </div>
+    </div>
+    
+    <!-- EMAIL US -->
+    <div id="email-us">
+        <span class="h3-icon">
+            <i class="fas fa-envelope"></i>
+        </span>
+        <h3>Email Us</h3>
+        <p>Get in with the organizers at <a href="mailto:charmcityjs@gmail.com">charmcityjs@gmail.com</a>. Or, use the form below.</p>
+        <form
+            action="https://formspree.io/f/xyylwrpa"
+            method="POST">
+            <label for="name">Your Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Brendan Eich"><br>
+            <label for="email">Your Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Brendan@javascript.com"><br>
+            <label for="message">Your Message</label><br>
+            <textarea id="message" name="message" placeholder="I've got a great idea for a talk."></textarea><br>
+            <input class="black-button" type="submit" value="Send">
+        </form>
+    </div>
+
+    <!-- FOLLOW US -->
+    <div id="follow-us">
+        <span class="h3-icon">
+            <i class="far fa-heart"></i>
+        </span>
+        <h3>Follow Us</h3>
+        <p>Learn about events and other activities on our social media.</p>
+        <div class="group-social-div">
+            <div class="single-social-div">
+                <a href="https://twitter.com/charmcityjs" target="_blank">
+                    <span class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </span>
+                </a>
+                <p>@charmCityJS</p>
             </div>
-        </div>
-        <div id="other-communities">
-            <span class="h3-icon">
-                <i class="fas fa-users"></i>
-            </span>
-            <h3>Other Communities</h3>
-            <p>We stand on the shoulders of others. Here are some other development and software engineering communities in the area.</p>
-            <p>Think another community should be listed here? Get in touch with us with details!</p>
-                <div class=" ">
-                    <div class=" ">
-                        <a href="http://codeforbaltimore.org/" target="_blank">
-                            <img src="images/code-for-baltimore-logo.png" alt="code for baltimore logo">
-                        </a>
-                        <p>Code for Baltimore</p>
-                    </div>
-                    <div class=" ">
-                        <a href="http://www.dctechslack.com/" target="_blank">
-                            <img src="images/dc-tech-slack.png" alt="DC tech logo">
-                        </a>
-                        <p>DC Tech Slack</p>
-                    </div>
-                    <div class=" ">
-                        <a href="https://technical.ly/baltimore/" target="_blank">
-                            <img src="images/Technical.ly-national-logo2.jpg" alt="technically logo">
-                        </a>
-                        <p>Technical.ly</p>
-                    </div>
-                </div>
+            <div class="single-social-div">
+                <a href="https://www.instagram.com/charmcityjs/" target="_blank">
+                    <span class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </span>
+                </a>
+                <p>@chamcityjs</p>
+            </div>
         </div>
     </div>
 
+    <!-- OTHER COMMUNITIES -->
+    <div id="other-communities">
+        <span class="h3-icon">
+            <i class="fas fa-users"></i>
+        </span>
+        <h3>Other Communities</h3>
+        <p>We stand on the shoulders of others. Here are some other development and software engineering communities in the area.</p>
+        <p>Think another community should be listed here? Get in touch with us with details!</p>
+            <div class="communities-group-div">
+                <div class="single-community-div">
+                    <a href="http://codeforbaltimore.org/" target="_blank">
+                        <img src="images/code-for-baltimore-logo.png" alt="code for baltimore logo">
+                    </a>
+                    <p>Code for Baltimore</p>
+                </div>
+                <div class="single-community-div">
+                    <a href="http://www.dctechslack.com/" target="_blank">
+                        <img src="images/dc-tech-slack.png" alt="DC tech logo">
+                    </a>
+                    <p>DC Tech Slack</p>
+                </div>
+                <div class="single-community-div">
+                    <a href="https://technical.ly/baltimore/" target="_blank">
+                        <img src="images/Technical.ly-national-logo2.jpg" alt="technically logo" style="width: 30%">
+                    </a>
+                    <p>Technical.ly</p>
+                </div>
+            </div>
+    </div>
+   
+
     <footer>
-        <p>Designed and Built by Samantha Solomon</p>
+        <p>Designed and Built by <a href="https://samanthasolomon.com/" target="_blank">Samantha Solomon</a></p>
     </footer>
 
 </body>
