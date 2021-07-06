@@ -17,15 +17,16 @@ Currently building ...
 | Links | all pages | 0.25 |
 | Formspree for contact form | index | 0.25 |
 | add organizer images, other community logos, sponsor logos | organizers | 1.0 |
+| API call with dummy data and API research | index | 4.0 |
+| Main and mobile styling | index, code of condust, organizers | 9.0 |
+
 
 
 Next tasks:
- - add ccjs logo
  - styling
  - figure out how to combine repos
  - add that vector image thing in meta data
 
- Tasks dependent on meetup api:
- - fix static data for rendering or get OAuth
- - add error messages
- - research handlebars.js
+
+Notes:
+ Meetup API call not going to work. OAuth required, only available with pro account.
