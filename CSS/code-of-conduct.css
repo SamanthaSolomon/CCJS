@@ -1,0 +1,17 @@
+/* CODE OF CONDUCT PAGE */
+
+/* MOBILE */
+
+#code-of-conduct{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+}
+
+#contact-information{
+    background-color: var(--background);
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+}
