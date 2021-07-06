@@ -6,46 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organizers - Charm City JS</title>
 
+    <!-- Styles -->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/organizers.css">
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/cee7a6045c.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header>
-        <img src="images/Logo.png" alt="logo"> 
-        <h1>< charmCityJS /></h1>
-        <hr>
+        <div class="centered-div">
+            <a class="no-underline" href="index.html">
+                <img src="images/Logo.png" alt="logo"> 
+                <h1>< charmCityJS /></h1>
+            </a>
+        </div>
     </header>
-    <div>
+    <div class="centered-div">
         <h2>< meetTheOrganizers /></h2>
+    </div>
+    <div id="meet-the-organizers">
         <p>Hi, this is what we look like! We love making CCJS run. Find any of us at any event and say hello. Or, <a href="index.html#email-us">email us!</a></p>
+        <div id="organizer-img-group">
+            <div>
+                <img class="organizer-img" src="images/asa.jpeg" alt="headshot" height="250">
+                <p><b>Asa</b></p>
+            </div>
+            <div>
+                <img class="organizer-img" src="images/eric.jpeg" alt="headshot" height="250">
+                <p><b>Eric</b></p>
+            </div>
+            <div>
+                <img class="organizer-img" src="images/glen.png" alt="headshot" height="250">
+                <p><b>Glen</b></p>
+            </div>
+            <div>
+                <img class="organizer-img" src="images/olivia.jpeg" alt="headshot" height="250">
+                <p><b>Olivia</b></p>
+            </div>
+        </div>
     </div>
-    <div>
-        <div>
-            <img src="images/asa.jpeg" alt="headshot" height="250">
-            <p>Asa</p>
+
+    <div id="sponsors">
+        <div class="centered-div">
+            <h2>< ourSponsors /></h2>
         </div>
-        <div>
-            <img src="images/eric.jpeg" alt="headshot" height="250">
-            <p>Eric</p>
+        <p>These businesses support the charmCityJS community.</p>
+        <div id="sponsor-div">
+            <img class="sponsor-img" src="images/Tenon logo.png" alt="Tenon logo" height="250">
+            <img class="sponsor-img" src="images/teampassword-logo-color-stacked.png" alt="Team Password logo" height="250">
         </div>
-        <div>
-            <img src="images/glen.png" alt="headshot" height="250">
-            <p>Glen</p>
-        </div>
-        <div>
-            <img src="images/olivia.jpeg" alt="headshot" height="250">
-            <p>Olivia</p>
-        </div>
-    </div>
-    <div>
-       <h2>< ourSponsors /></h2>
-       <p>These businesses support the charmCityJS community.</p>
-       <div>
-           <img src="images/Tenon logo.png" alt="Tenon logo" height="250">
-           <img src="images/teampassword-logo-color-stacked.png" alt="Team Password logo" height="250">
-       </div> 
-    </div>
+    </div> 
+
 
     <footer>
         <a href="index.html" class="black-button"><i class="fas fa-chevron-left"></i>backToMain</a>
