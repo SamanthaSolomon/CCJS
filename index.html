@@ -6,49 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charm City JS</title>
 
+    <!-- Styles -->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/index.css"> 
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/cee7a6045c.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <!-- home page -->
+    <!-- NAVIGATION - HOME -->
     <header>
-        <img src="images/Logo.png" alt="logo"> 
-        <h1>< charmCityJS /></h1>
+        <div class="centered-div">
+            <img src="images/Logo.png" alt="logo"> 
+            <h1>< charmCityJS /></h1>
+        </div>
         <h3>Oh, hey!</h3>
         <p>We're Baltimore's JavaScript community, and we want to hang out with you.</p>
         <nav>
-            <div>
+            <div class="centered-div">
                 <a href="#events" class="black-button">Events</a>
                 <p>Hang out with us (online for now)</p>
             </div>
-            <div>
+            <div class="centered-div">
                 <a href="#connect" class="black-button">Connect</a>
                 <p>Join the slack channel, follow us, or email us</p>
             </div>
-            <div>
+            <div class="centered-div">
                 <a href="code-of-conduct.html" class="black-button">Code of Conduct</a>
                 <p>This is really important to us</p>
             </div>
-            <div>
-                <a href="organizers.html" class>Meet the Organizers</a>
+            <div class="centered-div">
+                <a href="organizers.html" class="black-button">Meet the Organizers</a>
                 <p>We love making CCJS run</p>
             </div>
         </nav>
     </header>
 
-    <hr>
-    <!-- Events -->
+    <!-- EVENTS -->
     <div id="events">
-        <h2>< events /></h2>
-        <div>
-            <i class="fab fa-meetup"></i>
-            <h3>Upcoming Meetups</h3>
-            <div id="upcoming-meetups"></div>
-            <script src="main.js"></script>
+        <div class="centered-div">
+            <h2>< events /></h2>
         </div>
         <div>
-            <i class="fas fa-chalkboard-teacher"></i>
+            <span class="h3-icon">
+                <i class="fab fa-meetup"></i>
+            </span>
+            <h3>Upcoming Meetups</h3>
+            <p>Join us on the first Wednesday of every month at 7:00 pm for interesting and fun presentations by fellow developers</p>
+            <div class="centered-div">
+                <a href="https://www.meetup.com/charmcityjs/events/" target="_blank" class="black-button">Find Events and RSVP</a>
+            </div>
+        </div>
+        <div>
+            <span class="h3-icon">
+                <i class="fas fa-chalkboard-teacher"></i>
+            </span>
             <h3>Submit a Talk Idea</h3>
             <p>We want YOU to come talk or present at a future charmCityJS event! (Seriously, we want you to do it. We'll be if we have to.)</p>
             <p>A "talk" can be about anything JavaScript related:</p>
@@ -63,48 +76,117 @@
             </ul>
             <p>Talks must be 15 minutes or less for us to consider them, with 10 minute talks being our preference.</p>
             <p>To submit an idea, create a new issue with all of your deatils on GitHub</p>
-            <a href="https://github.com/charmcityjs/talks" target="_blank" class="button">Submit a Talk via GitHub</a><i class="fab fa-github"></i>
+            <a href="https://github.com/charmcityjs/talks" target="_blank" class="black-button">Submit a Talk via GitHub
+                <span class="button-icon">
+                    <i class="fab fa-github"></i>
+                </span>
+            </a>
             <p>If you'd prefer not to use GitHub, you can also submit talks via the below Google Form.</p>
-            <a href="http://goo.gl/forms/gBCRtIiyMH" target="_blank" class="button">Submit a Talk via Google Forms</a><i class="fas fa-align-left"></i>
+            <a href="http://goo.gl/forms/gBCRtIiyMH" target="_blank" class="black-button">Submit a Talk via Google Forms
+                <span class="button-icon">
+                    <i class="fas fa-align-left"></i>
+                </span>
+            </a>
         </div>
     </div>
 
-    <!-- Connect -->
-    <hr>
+    <!-- CONNECT -->
     <div id="connect">
-        <h2>< connect /></h2>
+        <div class="centered-div">
+            <h2>< connect /></h2>
+        </div>
         <div>
-            <i class="fab fa-slack"></i>
+            <span class="h3-icon">
+                <i class="fab fa-slack"></i>
+            </span>
             <h3>We're on Slack</h3>
             <p>Slack is where we all virtually hang out in between our in-person and online events. Come say hello, ask questions about JavaScript, Baltimore, or anything you want!</p>
             <a href="http://slack.charmcityjs.org/" target="_blank" class="black-button">Join our Channel</a>
         </div>
-        <div id="email-us">
+    </div>
+    
+    <!-- EMAIL US -->
+    <div id="email-us">
+        <span class="h3-icon">
             <i class="fas fa-envelope"></i>
-            <h3>Email Us</h3>
-            <p>Get in with the organizers at <a href="mailto:charmcityjs@gmail.com">charmcityjs@gmail.com</a>. Or, use the form below.</p>
-            <form
-                action="https://formspree.io/f/xyylwrpa"
-                method="POST">
-                <label for="name">Your Name</label><br>
-                <input type="text" id="name" name="name" placeholder="Brendan Eich"><br>
-                <label for="email">Your Email</label><br>
-                <input type="email" id="email" name="email" placeholder="Brendan@javascript.com"><br>
-                <label for="message">Your Message</label><br>
-                <textarea id="message" name="message" placeholder="I've got a great idea for a talk."></textarea><br>
-                <input type="submit" value="Send">
-            </form>
-        </div>
-        <div>
+        </span>
+        <h3>Email Us</h3>
+        <p>Get in with the organizers at <a href="mailto:charmcityjs@gmail.com">charmcityjs@gmail.com</a>. Or, use the form below.</p>
+        <form
+            action="https://formspree.io/f/xyylwrpa"
+            method="POST">
+            <label for="name">Your Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Brendan Eich"><br>
+            <label for="email">Your Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Brendan@javascript.com"><br>
+            <label for="message">Your Message</label><br>
+            <textarea id="message" name="message" placeholder="I've got a great idea for a talk."></textarea><br>
+            <input class="black-button" type="submit" value="Send">
+        </form>
+    </div>
+
+    <!-- FOLLOW US -->
+    <div id="follow-us">
+        <span class="h3-icon">
             <i class="far fa-heart"></i>
-            <h3>Follow Us</h3>
-            <p>Learn about events and other activities on our social media.</p>
-            <ul>
-                <li><i class="fab fa-twitter"></i><a href="https://twitter.com/charmcityjs" target="_blank">@charmCityJS</a></li>
-                <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/charmcityjs/" target="_blank">@chamcityjs</a></li>
-            </ul>
+        </span>
+        <h3>Follow Us</h3>
+        <p>Learn about events and other activities on our social media.</p>
+        <div class="group-social-div">
+            <div class="single-social-div">
+                <a href="https://twitter.com/charmcityjs" target="_blank">
+                    <span class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </span>
+                </a>
+                <p>@charmCityJS</p>
+            </div>
+            <div class="single-social-div">
+                <a href="https://www.instagram.com/charmcityjs/" target="_blank">
+                    <span class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </span>
+                </a>
+                <p>@chamcityjs</p>
+            </div>
         </div>
     </div>
 
+    <!-- OTHER COMMUNITIES -->
+    <div id="other-communities">
+        <span class="h3-icon">
+            <i class="fas fa-users"></i>
+        </span>
+        <h3>Other Communities</h3>
+        <p>We stand on the shoulders of others. Here are some other development and software engineering communities in the area.</p>
+        <p>Think another community should be listed here? Get in touch with us with details!</p>
+            <div class="communities-group-div">
+                <div class="single-community-div">
+                    <a href="http://codeforbaltimore.org/" target="_blank">
+                        <img src="images/code-for-baltimore-logo.png" alt="code for baltimore logo">
+                    </a>
+                    <p>Code for Baltimore</p>
+                </div>
+                <div class="single-community-div">
+                    <a href="http://www.dctechslack.com/" target="_blank">
+                        <img src="images/dc-tech-slack.png" alt="DC tech logo">
+                    </a>
+                    <p>DC Tech Slack</p>
+                </div>
+                <div class="single-community-div">
+                    <a href="https://technical.ly/baltimore/" target="_blank">
+                        <img src="images/Technical.ly-national-logo2.jpg" alt="technically logo" style="width: 30%">
+                    </a>
+                    <p>Technical.ly</p>
+                </div>
+            </div>
+    </div>
+   
+
+    <footer>
+        <p>Designed and Built by <a href="https://samanthasolomon.com/" target="_blank">Samantha Solomon</a></p>
+    </footer>
+
 </body>
+
 </html>

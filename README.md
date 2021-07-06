@@ -16,17 +16,20 @@ Currently building ...
 | MeetUp GET Request | index | 2.5 |
 | Links | all pages | 0.25 |
 | Formspree for contact form | index | 0.25 |
-| add organizer images | organizers | 0.5 |
+| add organizer images, other community logos, sponsor logos | organizers | 1.0 |
+| API call with dummy data and API research | index | 4.0 |
+| Main and mobile styling | index, code of condust, organizers | 9.0 |
+
 
 
 Next tasks:
- - add logo
- - add sponsors, Tenon, Team Password
- - add other communities
- - styling
+ - add that vector image thing in meta data
+ - Table and desktop styling
+ - lazy loading content
+ - typing effect on index header
+ - figure out what to do with header on inner pages
  - figure out how to combine repos
 
- Tasks dependent on meetup api:
- - fix static data for rendering or get OAuth
- - add error messages
- - research handlebars.js
+
+Notes:
+ Meetup API call not going to work. OAuth required, only available with pro account.
