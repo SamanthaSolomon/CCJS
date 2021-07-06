@@ -23,9 +23,12 @@ Currently building ...
 
 
 Next tasks:
- - styling
- - figure out how to combine repos
  - add that vector image thing in meta data
+ - Table and desktop styling
+ - lazy loading content
+ - typing effect on index header
+ - figure out what to do with header on inner pages
+ - figure out how to combine repos
 
 
 Notes:
