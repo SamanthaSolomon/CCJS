@@ -69,6 +69,12 @@ img{
     margin: 10% 0;
 }
 
+.nav-item-div{
+    text-align: center;
+    width: 100%;
+    margin: 10% 0;
+}
+
 .black-button{
     font-family: var(--para-font);
     text-decoration: none;
