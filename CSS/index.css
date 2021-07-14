@@ -46,6 +46,10 @@
     padding-bottom: 40px;
 }
 
+#meetups{
+    margin-bottom: 20%;
+}
+
 #connect{
     padding-top: 10px;
     padding-left: 5%;
@@ -93,6 +97,10 @@
         flex-wrap: wrap;
     }
 
+    h1{
+        font-size: 3rem;
+    }
+
     .nav-item-div{
         flex-grow: 1;
         flex-basis: 40%;
@@ -100,6 +108,17 @@
         margin-top: 5%;
         margin-bottom: 5%;
     }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    #events{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+
 }
 
 

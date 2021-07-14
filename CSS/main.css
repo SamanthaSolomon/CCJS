@@ -72,7 +72,11 @@ img{
 .nav-item-div{
     text-align: center;
     width: 100%;
-    margin: 10% 0;
+    margin: 15% 0;
+}
+
+.button-div{
+     margin: 7% 0;
 }
 
 .black-button{
