@@ -15,3 +15,46 @@
     padding-right: 5%;
     padding-bottom: 40px;
 }
+
+/* TABLET */
+@media only screen and (min-width: 768px){
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .centered-div{
+        margin: 5% 0
+    }
+
+    #code-of-conduct, #contact-information{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1024px){
+    p{
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 3rem;;
+    }
+
+    h3{
+        font-size: 1.8rem;
+    }
+
+    #code-of-conduct, #contact-information{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    footer a{
+        font-size: 1.5rem;
+    }
+
+}
