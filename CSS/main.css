@@ -63,6 +63,28 @@ img{
 
 /* UTILITIES */
 
+.typing{
+    position: relative;
+}
+
+.typing::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 85%;
+    border-right: 5px solid var(--text);
+    animation: blink 1.0s infinite linear;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .centered-div{
     text-align: center;
     width: 100%;
