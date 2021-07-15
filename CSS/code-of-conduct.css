@@ -23,6 +23,10 @@
         font-size: 2rem;
     }
 
+    .centered-div{
+        margin: 5% 0
+    }
+
     #code-of-conduct, #contact-information{
         padding-left: 15%;
         padding-right: 15%;
