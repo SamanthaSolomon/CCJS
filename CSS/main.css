@@ -144,5 +144,9 @@ footer p a{
     color: var(--background);
 }
 
+footer a i{
+    margin-right: 2%; 
+}
+
 
 
