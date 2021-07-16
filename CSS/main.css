@@ -63,11 +63,11 @@ img{
 
 /* UTILITIES */
 
-.typing{
+#typing{
     position: relative;
 }
 
-.typing::after{
+#typing::after{
     content: "";
     position: absolute;
     width: 1px;
