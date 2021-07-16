@@ -1,20 +1,33 @@
-const text = ['< charmCityJS />']
-let count = 0
-let index = 0
-let currentText = ''
-let letter = ''
+//TYPING EFFECT//
+window.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM loaded')
 
-(function type() {
-     if (count === text.length) {
-         count = 0;
-     }
-     currentText = text[count];
-     letter = currentText.slice(0, ++index);
+    const textDisplay = document.getElementsByClassName('typing')
+    const h1 = ['< charmCityJS />', '< charmCityJS />', '< charmCityJS />']
+    let i = 0
+    let x = 0
+    let currentH1 = []
 
-     document.querySelector('.typing').textContent = letter;
-     if(letter.length === currentText.length){
-         count++;
-         index = 0;
-     }
-     setTimeout(type, 400);
-})();
+
+    function loop(){
+        textDisplay.innerHTML = currentH1
+        if (i < h1.length) {
+            console.log(h1[i])
+
+            if (x < h1[i].length) {
+                console.log(h1[i][x])
+                currentH1.push(h1[i][x])
+                x++
+            }
+
+            if (x == h1[i].length) {
+                i++
+            }
+        }
+        setTimeout(loop, 500)
+    }
+    loop()
+})
+
+
+
