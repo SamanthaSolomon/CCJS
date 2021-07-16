@@ -2,6 +2,10 @@
 
 /* MOBILE */
 
+#logo{
+    width: 20%;
+}
+
 .organizer-img{
     width: 60%;
     height: 60%;
@@ -42,6 +46,10 @@
 /* TABLET */
 @media only screen and (min-width: 768px){
 
+    #logo{
+        width: 15%;
+    }
+    
     h2{
         font-size: 2rem;
     }
@@ -81,6 +89,13 @@
 /* DESKTOP */
 @media only screen and (min-width: 1024px){
 
+    #logo{
+        width: 8%;
+        position: absolute;
+        left: 2%;
+        top: 5%;
+    }
+    
     p{
         font-size: 1.5rem;
     }

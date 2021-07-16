@@ -1,7 +1,8 @@
-//TYPING EFFECT//
+
 window.addEventListener('DOMContentLoaded', () => {
     console.log('DOM loaded')
 
+    //TYPING EFFECT ON H1//
     const h1Display = document.getElementById('typing')
 
     const h1 = ['< charmCityJS />', '< charmCityJS />', '< charmCityJS />']
@@ -18,13 +19,11 @@ window.addEventListener('DOMContentLoaded', () => {
             if (!isDeleting && x <= h1[i].length) {
                 currentH1.push(h1[i][x])
                 x++
-                console.log('add letter', x)
             }
 
             if (isDeleting && x <= h1[i].length){
                 currentH1.pop(h1[i][x])
                 x--
-                console.log('delete letter', x)
             }
 
             if (x === h1[i].length) {
@@ -39,7 +38,6 @@ window.addEventListener('DOMContentLoaded', () => {
                     i = 0
                 }
             }
-
         }
         setTimeout(loop, 400)
     }
