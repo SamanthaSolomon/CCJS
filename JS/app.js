@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
     //TYPING EFFECT ON H1//
     const h1Display = document.getElementById('typing')
 
-    const h1 = ['< charmCityJS />', '< charmCityJS />', '< charmCityJS />']
+    const h1 = ['< CharmCityJS />', '< CharmCityJS />', '< CharmCityJS />']
     let i = 0
     let x = 0
     let currentH1 = []
