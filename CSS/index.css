@@ -61,9 +61,7 @@ img{
 }
 
 #email-us{
-    background-color: var(--accent);
     margin-top: 15%;
-    padding-top: 40px;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 40px;
@@ -71,7 +69,6 @@ img{
 
 #follow-us{
     margin-top: 15%;
-    padding-top: 40px;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 40px;
