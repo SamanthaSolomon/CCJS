@@ -58,7 +58,7 @@ a{
 }
 
 img{
-    width: 25%;
+    width: 150px;
 }
 
 /* UTILITIES */
@@ -98,7 +98,7 @@ img{
 }
 
 .button-div{
-     margin: 7% 0;
+    margin: 7% 0;
 }
 
 .black-button{
