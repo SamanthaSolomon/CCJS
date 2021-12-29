@@ -1,6 +1,7 @@
 /* INDEX PAGE */
 
 /* MOBILE */
+
 img{
     width: 80px;
 }
@@ -83,6 +84,7 @@ img{
     padding-bottom: 40px;
 }
 
+
 /* TABLET */
 @media only screen and (min-width: 768px){
 
@@ -117,7 +119,7 @@ img{
         font-size: 2rem;
     }
 
-    #events, #connect, #email-us, #follow-us, #other-communities{
+    #events, #connect, #follow-us, #email-us, #other-communities{
         padding-left: 15%;
         padding-right: 15%;
         margin-top: 5%;
@@ -183,7 +185,7 @@ img{
         flex-wrap: wrap;
     }
 
-    #events, #connect, #email-us, #follow-us, #other-communities{
+    #events, #connect, #follow-us, #email-us, #other-communities{
         padding-left: 20%;
         padding-right: 20%;
     }
