@@ -42,6 +42,10 @@ img{
     width: 45%;
 }
 
+#tablet-desktop-header{
+    display: none;
+}
+
 #events{
     background-color: var(--background);
     padding-top: 10px;
@@ -92,24 +96,38 @@ img{
         width: 90px;
     }
 
-    header{
-        padding-left: 15%;
-        padding-right: 15%;
-        padding-bottom: 10%;
-    }
-
-    nav{
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     h1{
         font-size: 3rem;
     }
 
+    #tablet-desktop-header{
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-columns: [left] 1fr [right] 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .left-div{
+        grid-column: left / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .right-div{
+        grid-column: right / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .nav-group-right{
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 25%;
+        margin-left: 15%;
+    }
+
     .nav-item-div{
-        flex-grow: 1;
-        flex-basis: 40%;
         padding: 0px 15px;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -117,6 +135,14 @@ img{
 
     h2{
         font-size: 2rem;
+    }
+
+    #mobile-header{
+        display: none;
+    }
+
+    #tablet-desktop-header{
+        display: contents;
     }
 
     #events, #connect, #follow-us, #email-us, #other-communities{
@@ -167,12 +193,16 @@ img{
 
     .nav-item-div a{
         font-size: 1.5rem;
-        padding: 5% 10%;
+        /* padding: 5% 10%; */
+        /* width: 750px;
+        height: 750px; */
+        
     }
 
     .button-div a{
         font-size: 1.5rem;
         padding: 3% 6%;
+        
     }
 
     .h3-icon{
