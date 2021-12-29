@@ -20,6 +20,7 @@ html body{
 header{
     padding-left: 5%;
     padding-right: 5%;
+    margin-bottom: 10%;
 }
 
 h1{
@@ -38,12 +39,14 @@ h3{
     font-family: var(--para-font);
     font-weight: 500;
     color: var(--text);
+    text-align: left;
 }
 
 p{
     font-family: var(--para-font);
     font-weight: 300;
     color: var(--text);
+    text-align: left;
 }
 
 ul li{
@@ -94,12 +97,8 @@ img{
 
 .nav-item-div{
     text-align: center;
-    width: 100%;
-    margin: 15% 0;
-}
-
-.button-div{
-    margin: 7% 0;
+    margin: 5% 5%;
+    display: flex; 
 }
 
 .black-button{
@@ -110,14 +109,19 @@ img{
     border: var(--text);
     padding: 15px 20px;
     border-radius: 5px;
+    flex-grow: 1;
 }
-
 
 .black-button:hover{
     color: var(--text);
     background-color: var(--background);
     border: 3px solid var(--text);
 }
+
+.button-div{
+    margin: 7% 0;
+}
+
 
 .h3-icon{
     font-size: 2.5rem;
