@@ -4,6 +4,7 @@
 
 img{
     width: 80px;
+    border: 1px solid black;
 }
 
 .social-icon{
@@ -59,10 +60,10 @@ img{
 }
 
 #connect{
+    background-color: var(--accent);
     padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 40px;
 }
 
 #email-us{
@@ -81,7 +82,6 @@ img{
 
 #other-communities{
     background-color: var(--accent);
-    margin-top: 15%;
     padding-top: 40px;
     padding-left: 5%;
     padding-right: 5%;
@@ -135,7 +135,6 @@ img{
         display: none;
     }
 
-
     #tablet-desktop-header{
         margin-top: 5%;
         padding-left: 15%;
@@ -149,7 +148,6 @@ img{
     #events, #connect, #follow-us, #email-us, #other-communities{
         padding-left: 15%;
         padding-right: 15%;
-        margin-top: 5%;
     
     }
 
@@ -193,6 +191,60 @@ img{
         align-self: start;   
     }
 
+    #other-communities{
+        display: grid;
+        grid-template-columns: [left] 1fr [right] 2fr;
+        grid-template-rows: 0.125fr 0.25fr 1fr; 
+    }
+
+    #other-communities-1st-p{
+        grid-column: right / 3;
+        grid-row: 2 / 3;
+        align-self: start;    
+    }
+
+    .communities-group-div{
+        grid-column: 1 / 3;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #code-for-baltimore-img{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        align-self: center; 
+    }
+
+    #code-for-baltimore-div{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    #DC-tech-img{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        align-self: center;
+        margin-top: 30px;  
+    }
+
+    #DC-tech-div{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        align-self: center;   
+    }
+
+    #technicaly-img{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        align-self: center;  
+    }
+
+    #technicaly-div{
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;  
+    }
+
     .h3-icon{
         grid-column: left / 2;
         grid-row: 2 / 3;
@@ -213,9 +265,6 @@ img{
         grid-row: 3 / 4;
         align-self: start; 
     }
-
-
-
 
 
 }
