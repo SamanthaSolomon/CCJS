@@ -67,14 +67,14 @@ img{
 }
 
 #email-us{
-    margin-top: 15%;
+    margin-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 40px;
 }
 
-#follow-us{
-    margin-top: 15%;
+#follow-us, #slack{
+    margin-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 40px;
@@ -145,10 +145,15 @@ img{
         grid-template-rows: 1fr;
     }
 
-    #events, #connect, #follow-us, #email-us, #other-communities{
+    #events, #follow-us, #email-us, #slack{
         padding-left: 15%;
         padding-right: 15%;
-    
+        margin-top: 5%;
+    }
+
+    #connect, #other-communities{
+        margin-top: 0;
+
     }
 
     #meetups{
@@ -289,6 +294,10 @@ img{
         font-size: 1.8rem;
     }
 
+    h4{
+        font-size: 1.5rem;
+    }
+
     ul li{
         font-size:  1.5rem;
     }
@@ -308,9 +317,6 @@ img{
 
     .nav-item-div a{
         font-size: 1.5rem;
-        /* padding: 5% 10%; */
-        /* width: 750px;
-        height: 750px; */
         
     }
 
@@ -328,13 +334,9 @@ img{
         margin-top: 10%;
     }
 
-    .communities-group-div{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 
-    #events, #connect, #follow-us, #email-us, #other-communities{
+
+    #events, #connect, #follow-us, #email-us, #other-communities, #slack{
         padding-left: 20%;
         padding-right: 20%;
     }
