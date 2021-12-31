@@ -3,8 +3,9 @@ window.addEventListener('DOMContentLoaded', () => {
     console.log('DOM loaded')
 
     //TYPING EFFECT ON H1//
-    const h1Display = document.getElementById('typing')
+    const h1Display = document.getElementById("typing")
 
+    //Add new text to the array to include additional messages
     const h1 = ['< CharmCityJS />', '< CharmCityJS />', '< CharmCityJS />']
     let i = 0
     let x = 0
